@@ -1,0 +1,16 @@
+com\alberto\rallyslot\controller\tramo\TramoControllerTests.class
+com\alberto\rallyslot\controller\piloto\PilotoControllerTests.class
+com\alberto\rallyslot\controller\club\ClubControllerTests.class
+com\alberto\rallyslot\controller\common\BaseControllerTests$3.class
+com\alberto\rallyslot\controller\common\DatosTest.class
+com\alberto\rallyslot\controller\categoria\CategoriaControllerTests.class
+com\alberto\rallyslot\controller\prueba\PruebaControllerTests.class
+com\alberto\rallyslot\controller\inscrito\InscritoControllerTests.class
+com\alberto\rallyslot\RallyslotApplicationTests.class
+com\alberto\rallyslot\controller\common\BaseControllerTests$2.class
+com\alberto\rallyslot\util\UtilTests.class
+com\alberto\rallyslot\config\TestConfig.class
+com\alberto\rallyslot\controller\common\BaseControllerTests.class
+com\alberto\rallyslot\util\ValidacionesTests.class
+com\alberto\rallyslot\controller\common\BaseControllerTests$1.class
+com\alberto\rallyslot\util\ConstantesTests.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alberto.rallyslot.mapper.club.ClubMapper">
+	
+	<parameterMap type="com.alberto.rallyslot.entity.club.club" id="club">
+		<parameter property="clubId"					jdbcType="INTEGER" 	/>
+		<parameter property="clubName"				jdbcType="VARCHAR" 	javaType="String" 	mode="IN" />
+	</parameterMap>
+
+	<insert id="insertaClub" parameterMap='club'>		
+		INSERT INTO CLUB (clubName) VALUES (#{clubName}) 
+	</insert>
+
+
+</mapper>

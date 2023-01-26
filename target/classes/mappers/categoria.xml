@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alberto.rallyslot.mapper.club.CategoriaMapper">
+	
+	<parameterMap type="com.alberto.rallyslot.entity.categoria.categoria" id="categoria">
+		<parameter property="categoriaIdr"		jdbcType="INTEGER" 	/>
+		<parameter property="categoriaName"		jdbcType="VARCHAR" 	/>
+		<parameter property="creationDate"		jdbcType="TIMESTAMP" 	/>
+		<parameter property="creationUser"		jdbcType="VARCHAR" 	/>
+		<parameter property="modificationDate"	jdbcType="TIMESTAMP" 	/>
+		<parameter property="modificationUser"	jdbcType="VARCHAR" 	/>		
+	</parameterMap>
+
+	<insert id="getCategoriasBatch" parameterMap='categoria'>		
+		SELECT categoriaId, categoriaName,creationDate,creationUser,modificationDate,modificationUser FROM CATEGORIA WHERE deleteDate IS NULL
+	</insert>
+
+
+</mapper>
